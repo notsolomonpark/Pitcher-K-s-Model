@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-02-11 14:30 ET",
+  "date": "2026-02-11",
+  "predictions": [
+    {
+      "pitcher_name": "Tarik Skubal",
+      "opponent": "CLE",
+      "line": 7.5,
+      "expected_so": 8.2,
+      "probability": 68.5,
+      "recommendation": "BET OVER 7.5"
+    },
+    {
+      "pitcher_name": "Logan Webb",
+      "opponent": "LAD",
+      "line": 5.5,
+      "expected_so": 4.8,
+      "probability": 71.2,
+      "recommendation": "BET UNDER 5.5"
+    },
+    {
+      "pitcher_name": "Zack Wheeler",
+      "opponent": "ATL",
+      "line": 6.5,
+      "expected_so": 7.1,
+      "probability": 66.8,
+      "recommendation": "BET OVER 6.5"
+    },
+    {
+      "pitcher_name": "Aaron Nola",
+      "opponent": "MIA",
+      "line": 5.5,
+      "expected_so": 6.3,
+      "probability": 69.4,
+      "recommendation": "BET OVER 5.5"
+    },
+    {
+      "pitcher_name": "Yusei Kikuchi",
+      "opponent": "TEX",
+      "line": 5.5,
+      "expected_so": 4.9,
+      "probability": 67.1,
+      "recommendation": "BET UNDER 5.5"
+    }
+  ],
+  "stats": {
+    "total_games": 5,
+    "high_confidence": 5,
+    "model_win_rate_7d": 0.745,
+    "model_win_rate_30d": 0.731
+  }
+}

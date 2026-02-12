@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚾ Strikeout Predictions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>⚾ Daily Strikeout Predictions</h1>
+            <p class="subtitle">Adaptive Model Predictions for MLB Player Props</p>
+            <div id="lastUpdate" class="last-update">Loading...</div>
+        </header>
+
+        <!-- Stats Overview -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="totalGames">--</div>
+                <div class="stat-label">Games Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="highConfidence">--</div>
+                <div class="stat-label">High Confidence</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="winRate7d">--</div>
+                <div class="stat-label">7-Day Win Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="winRate30d">--</div>
+                <div class="stat-label">30-Day Win Rate</div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All Picks</button>
+            <button class="filter-btn" data-filter="high">High Confidence (>65%)</button>
+            <button class="filter-btn" data-filter="over">Overs</button>
+            <button class="filter-btn" data-filter="under">Unders</button>
+        </div>
+
+        <!-- Predictions -->
+        <div id="predictions" class="predictions-container">
+            <div class="loading">Loading predictions...</div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Adaptive Strikeout Predictor v1.0</p>
+            <p class="disclaimer">For informational purposes only. Not financial advice.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
