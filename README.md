@@ -1,6 +1,4 @@
-[README.md](https://github.com/user-attachments/files/25249640/README.md)
-[README.md](https://github.com/user-attachments/files/25249640/README.md)
-[Uploading README.md…]()# ⚾ Strikeout Predictions - GitHub Pages Setup
+⚾ Strikeout Predictions - GitHub Pages Setup
 
 This is a web application that displays daily MLB pitcher strikeout predictions using an adaptive statistical model.
 
