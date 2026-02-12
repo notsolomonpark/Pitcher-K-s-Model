@@ -112,8 +112,6 @@ function createPredictionCard(pred) {
         <div class="recommendation ${isUnder ? 'under' : 'over'}">
             ${pred.recommendation}
         </div>
-        
-        <span class="confidence-badge ${confidenceClass}">${confidenceText}</span>
     `;
     
     return card;
