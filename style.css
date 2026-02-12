@@ -214,34 +214,6 @@ header h1 {
     color: white;
 }
 
-/* Confidence Badge */
-.confidence-badge {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.75em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.confidence-high {
-    background: #4ade80;
-    color: white;
-}
-
-.confidence-medium {
-    background: #fbbf24;
-    color: white;
-}
-
-.confidence-low {
-    background: #94a3b8;
-    color: white;
-}
-
 /* Footer */
 footer {
     background: white;
